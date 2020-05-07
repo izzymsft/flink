@@ -21,7 +21,7 @@ package org.apache.flink.fs.azurefs;
 /**
  * A factory for the Azure Data Lake Storage Gen2 URI over HTTPS.
  */
-public class AzureFSFactory extends AbstractAzureFSFactory {
+public class SecureAzureABFSFactory extends AbstractAzureFSFactory {
 
 	@Override
 	public String getScheme() {
